@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andy Rizki Cahyadi</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="core.css">    
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Sidebar for small screens -->
+  <nav id="sidebar" aria-label="Sidebar navigation">
+    <a href="#" class="d-block mb-3" aria-label="Fawziui logo">
+      <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1e414d8c-e838-4a26-8f54-f2634bb0d921.png" alt="Fawziui logo in black text" class="img-fluid" />
+    </a>
+    <a href="#home" aria-current="page">Home</a>
+    <a href="#about-me">About me</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Project</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <div class="profile-img" aria-label="Sidebar profile image of Fawzi Sayed wearing yellow sweater and red beanie">
+      <img src="profile2.png"/>
+    </div>
+    <div class="profile-name">Hi, I am <span class="text-orange fw-bold">Andy Rizki Cahyadi</span></div>
+    <div class="profile-role text-orange fw-bold mb-3">Web Developer</div>
+    <p class="small text-muted">
+      Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus in. Aliquet donec morbi convallis
+      pretium.
+    </p>
+    <hr />
+    <div class="text-center fw-semibold">About Me</div>
+  </nav>
+
+  <!-- Main content container -->
+  <main class="container-main" role="main" aria-label="Main portfolio content">
+    <!-- Navbar top right for desktop -->
+    <nav class="navbar navbar-expand-lg ps-0 mb-5" aria-label="Primary navigation menu">
+      <a href="#" class="navbar-brand d-none d-lg-block" aria-label="Fawziui logo">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/be186625-cf1b-4f1f-804f-04ba9d9a66dc.png" alt="Fawziui logo in black text" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0 justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center gap-3 me-2">
+          <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-cv">Download CV</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="home" class="intro-section" aria-label="Introduction and main profile information">
+      <div class="intro-text" tabindex="0">
+        <h3>Hi I am <span class="text-orange">Fawzi Sayed</span></h3>
+        <h1>Web <br />Developer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus in. Aliquet donec morbi convallis
+          pretium. Turpis tempus porttitor purus.
+        </p>
+        <button class="btn-hire" type="button" aria-label="Hire me button">Hire Me</button>
+      </div>
+      <div class="profile-circle" aria-label="Profile picture of Fawzi Sayed">
+        <img src="profile2.png" alt="A portrait photo of Fawzi Sayed wearing a yellow sweater and a red beanie, contained in a circular frame with an orange border." />
+      </div>
+    </section>
+
+    <!-- Social icons below profile image -->
+    <div class="social-icons" aria-label="Social media profiles">
+      <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook profile link">
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter profile link">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram profile link">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn profile link">
+        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+      </a>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-section" tabindex="0" aria-label="About me section">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus in. Aliquet donec morbi convallis
+        pretium. Turpis tempus porttitor purus.
+      </p>
+      <div class="row justify-content-center g-4 g-md-5 px-2 px-md-5">
+        <!-- Full Name -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="profile-info-card" aria-label="Full Name John Doe">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="#ee6c14"
+              viewBox="0 0 24 24">
+              <path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+            </svg>
+            <div>
+              <div class="info-label">Full Name</div>
+              <div class="info-detail">John Doe</div>
+            </div>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="profile-info-card" aria-label="Education Universitas Gajah Mada">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="#ee6c14"
+              viewBox="0 0 24 24">
+              <path
+                d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zM2 8.9v7.96l10 4.55 10-4.55v-8.04l-10 4.64-8-3.6zM11 16l-2 2h6l-2-2h-2z" />
+            </svg>
+            <div>
+              <div class="info-label">Education</div>
+              <div class="info-detail">Universitas Gajah Mada</div>
+            </div>
+          </div>
+        </div>
+        <!-- Job -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="profile-info-card" aria-label="Occupation Pejabat">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="#ee6c14"
+              viewBox="0 0 24 24">
+              <path
+                d="M6 2v6H5a2 2 0 0 0-2 2v8h18v-8a2 2 0 0 0-2-2h-1V2h-8zM7 8V4h6v4H7zM20 18H4v-6h16v6z" />
+            </svg>
+            <div>
+              <div class="info-label">Pekerjaan</div>
+              <div class="info-detail">Pejabat</div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="profile-info-card" aria-label="Contact info john.doe@example.com phone number +62 812 8764 6453">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="#ee6c14"
+              viewBox="0 0 24 24">
+              <path
+                d="M21 6v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a1 1 0 0 1 1.37-.93L12 10.1l7.63-4.95A1 1 0 0 1 21 6zM19 6.12L12 11.75 5 6.12V18h14V6.12z" />
+            </svg>
+            <div>
+              <div class="info-label">Contact</div>
+              <div class="info-detail">john.doe@example.com<br />+62 812 8764 6453</div>
+            </div>
+          </div>
+        </div>
+        <!-- Hobby -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="profile-info-card" aria-label="Hobby reading books, coding, traveling">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="#ee6c14"
+              viewBox="0 0 24 24">
+              <path
+                d="M6 19l12 0-12-7v7zM14 2v7h2v7h-2v3l-6-3V2h6zM4 3v15c0 1.11.89 2 2 2h13v-2h-1v-8h1v-7h-14z" />
+            </svg>
+            <div>
+              <div class="info-label">Hobi</div>
+              <div class="info-detail">Membaca Buku, Coding, Traveling</div>
+            </div>
+          </div>
+        </div>
+        <!-- Address -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="profile-info-card" aria-label="Address Jl. Mawar No. 123, Jakarta">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="#ee6c14"
+              viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
+            </svg>
+            <div>
+              <div class="info-label">Alamat</div>
+              <div class="info-detail">Jl. Mawar No. 123, Jakarta</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section id="projects" class="projects-section" aria-label="Portfolio projects section" tabindex="0">
+      <h2>My Projects</h2>
+      <div class="project-filters" role="group" aria-label="Filter projects by category">
+        <button type="button" class="active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="uxui" aria-pressed="false">UI/UX</button>
+        <button type="button" data-filter="webdesign" aria-pressed="false">Web Design</button>
+        <button type="button" data-filter="appdesign" aria-pressed="false">App Design</button>
+        <button type="button" data-filter="graphicdesign" aria-pressed="false">Graphic Design</button>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-category="webdesign" tabindex="0" aria-label="AirCalling landing page design project">
+          <div class="project-img">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6a7c640f-72b6-409f-be0a-1833b3ce4424.png" alt="Screenshot of AirCalling landing page design. White background with blue UI elements and call to action." loading="lazy" onerror="this.style.display='none'" />
+          </div>
+          <div class="project-info">
+            <div class="project-category">Web Design</div>
+            <h3 class="project-title">AirCalling Landing Page Design</h3>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-category="webdesign" tabindex="0" aria-label="Business landing page design project">
+          <div class="project-img">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f927be55-98e5-41b2-b627-8c33e2a0d5ca.png" alt="Screenshot of Business landing page design with green and white theme showing business related UI design" loading="lazy" onerror="this.style.display='none'" />
+          </div>
+          <div class="project-info">
+            <div class="project-category">Web Design</div>
+            <h3 class="project-title">Business Landing Page Design</h3>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-category="webdesign" tabindex="0" aria-label="Ecom web page design project">
+          <div class="project-img">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/af3c1960-ca00-422e-b3cb-5288f52e7101.png" alt="Screenshot of e-commerce web page design, clean white and light orange theme with product listings and navigation" loading="lazy" onerror="this.style.display='none'" />
+          </div>
+          <div class="project-info">
+            <div class="project-category">Web Design</div>
+            <h3 class="project-title">Ecom Web Page Design</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="core.js"></script>
+</body>
+
+</html>
+
